@@ -53,7 +53,7 @@ export default class BaseRenderer {
 }
 
 export const ASCII_CHARSET = range(32, 126).map(code => String.fromCharCode(code));
-export const SIMPLE_CHARSET = [".", ":", "*", "I", "$", "V", "F", "N", "M"];
+export const SIMPLE_CHARSET = ["0", "1"];
 
 function memoize(func) {
     func._cache = [];
